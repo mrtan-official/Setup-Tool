@@ -9,10 +9,5 @@ if bit == '64bit':
     time.sleep(3)
     os.system("clear") 
     import setup
-elif bit == '32bit':
-    print('\033[1;31m[\x1b[38;5;156m●\033[1;31m]\x1b[38;5;156m You are 32 Bit user')
-    time.sleep(3)
-    os.system("clear")
-    import set
 else:
     print("Sorry")
